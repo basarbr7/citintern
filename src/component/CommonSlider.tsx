@@ -15,6 +15,7 @@ interface SliderProps {
   slidesPerView?: number;
   spaceBetween?: number;
   autoplay?: boolean;
+  showPagination?: boolean;
 }
 
 export default function CommonSlider({
@@ -23,6 +24,7 @@ export default function CommonSlider({
   slidesPerView = 3,
   spaceBetween = 20,
   autoplay = false,
+  showPagination,
 }: SliderProps) {
   
   const prevRef = useRef<HTMLButtonElement | null>(null);
@@ -44,6 +46,7 @@ export default function CommonSlider({
         modules={[Navigation, Pagination, Autoplay]}
         slidesPerView={slidesPerView}
         spaceBetween={spaceBetween}
+        pagination={showPagination ? { clickable: true } : false}
         autoplay={
           autoplay ? { delay: 2500, disableOnInteraction: false } : false
         }

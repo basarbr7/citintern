@@ -26,6 +26,10 @@
   );
 }
 
+.swiper-pagination {
+  margin-top: 100px;
+}
+
 /* bg-linear-to-tl from-[#0003CF]/5 0% to-[#FF0004]/5 100% */
 /* bg-[linear-gradient(210deg,rgba(255,128,121,1)_0%,rgba(255,30,30,1)_100%)] */
 

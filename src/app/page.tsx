@@ -6,6 +6,7 @@ import MiddlePart from "../pages/MiddlePart";
 import CourseOutline from "../pages/CourseOutline";
 import Admission from "../pages/Admission";
 import StudentWork from "../pages/StudentWork";
+import Feedback from "../pages/Feedback";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <CourseOutline/>
       <Admission/>
       <StudentWork/>
+      <Feedback/>
     </>
   );
 }
