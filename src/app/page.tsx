@@ -1,0 +1,19 @@
+import Image from "next/image";
+import Header from "../component/Header";
+import Navbar from "../component/Navbar";
+import Hero from "../pages/Hero";
+import OurFacilities from "../pages/OurFacilities";
+import MiddlePart from "../pages/MiddlePart";
+import CourseOutline from "../pages/CourseOutline";
+
+export default function Home() {
+  return (
+    <>
+      <Navbar/>
+      <Hero/>
+      <OurFacilities/>
+      <MiddlePart/>
+      <CourseOutline/>
+    </>
+  );
+}
