@@ -1,14 +1,16 @@
-import Module1Table from "./Module1Table";
 
-const Module1 = () => {
+import Module2Table from "./Module2Table"
+
+
+const Module2 = () => {
   return (
     <div>
       <div className="flex justify-between items-center">
         <div className="flex gap-2 items-center">
           <div className="bg-[linear-gradient(210deg,rgba(255,128,121,1)_0%,rgba(255,30,30,1)_100%)] text-white rounded-md py-1 px-2.5 text-base font-semibold">
-            <span>Module1 : </span>
+            <span>Module2 : </span>
           </div>
-          <p className="text-lg font-semibold">Fundamental & Powerpoint</p>
+          <p className="text-lg font-semibold">Adobe Illustrator & Concept Development</p>
         </div>
 
         <div className="w-8 h-8 rounded-full bg-[#FF1E1E] flex items-center justify-center">
@@ -26,7 +28,7 @@ const Module1 = () => {
             <div className="flex gap-1 items-center mb-2">
               <img src="/icons/Module1.png" alt="image" />
               <p className="font-semibold text-base">
-                Duration: <span className="font-normal text-[#605F62] ">4 Classes</span>
+                Duration: <span className="font-normal text-[#605F62] ">29 Classes</span>
               </p>
             </div>
 
@@ -36,7 +38,7 @@ const Module1 = () => {
                     <p className="font-semibold text-base">Focus &nbsp; &nbsp; : </p>
                 </div>
 
-                <p className="max-w-[641px] text-[#605F62] text-base font-normal ">Design Thinking, Presentation Skill & Creative Foundation. <br /> Build your creative mindset with the fundamentals of design and communication. <br /> Learn to structure ideas visually using PowerPoint for impactful presentations and storytelling.</p>
+                <p className="max-w-[739px] text-[#605F62] text-base font-normal ">Vector Illustration, Marketing Material, Product Packaging, Branding & Conceptual Design. <br /> Master vector-based illustration and branding with Adobe Illustrator. From pen tool precision to professional <br /> logo design and print-ready artwork, this module prepares you for both creative jobs and freelance projects.</p>
             </div>
           </div>
 
@@ -46,9 +48,10 @@ const Module1 = () => {
                 <span >Class Type Breakdown: </span>
             </div>
             <ul className="list-disc ml-5 text-base text-[#605F62] font-normal ">
-                <li>Offline (Theory): 2 Classes</li>
-                <li>Lab (Practice): 1 Class</li>
-                <li>Lab (Exam): 1 Class</li>
+                <li>Lab (Practice): 9 Classes</li>
+                <li>Recorded Video: 9 Classes</li>
+                <li>Offline (Theory): 6 Classes</li>
+                <li>Online Theory: 5 Classes</li>
             </ul>
           </div>
 
@@ -58,11 +61,11 @@ const Module1 = () => {
 
         <div>
           <div className="flex justify-between">
-            <p className="text-base font-semibold">Projects Included : <span className="font-normal text-[#605F62] ">2 Projects</span></p>
-            <p className="text-base font-semibold">Prerequisites: <span className="font-normal text-[#605F62] ">None (Beginner-friendly introduction to design)</span></p>
+            <p className="text-base font-semibold">Projects Included : <span className="font-normal text-[#605F62] ">12 Projects</span></p>
+            <p className="text-base font-semibold">Prerequisites: <span className="font-normal text-[#605F62] ">Adobe Illustrator Segments</span></p>
           </div>
 
-            <p className="text-base font-semibold">Career Path &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; : <span className="font-normal text-[#605F62]" >Junior Presentation Designer, Creative Assistant</span></p>
+            <p className="text-base font-semibold">Career Path &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; : <span className="font-normal text-[#605F62]" >Graphic Designer, Brand Identity Designer, Illustrator, Print Designer, Freelance Vector Artist</span></p>
         </div>
 
          <hr className="w-full h-[1] text-[#8F94FB]/30 my-6 "/>
@@ -71,16 +74,17 @@ const Module1 = () => {
           <div className="flex ">
             <p className="text-base font-semibold">Key Highlights &nbsp; &nbsp; :</p>
             <ul className="list-disc ml-6 font-normal text-[#605F62] text-base  ">
-                <li>Fundamental principles of graphic design</li>
-                <li>Understanding color, balance & composition</li>
-                <li>PowerPoint interface, transitions & animations</li>
+                <li>Pen tool, shape building & line art mastery</li>
+                <li>Logo design with grid & golden ratio</li>
+                <li>Business card, stationery & packaging design</li>
+                <li>Color psychology & concept development</li>
             </ul>
           </div>
 
             <ul className="list-disc ml-6 font-normal text-[#605F62] text-base  ">
-                <li> Creative presentation techniques</li>
-                <li>Interactive project & portfolio presentation</li>
-                <li>Foundation exam (MCQ & presentation-based)</li>
+                <li>Marketing materials (flyer, brochure, poster)</li>
+                <li>Print on demand & AI-integrated tools (ChatGPT, Ideogram, Leonardo, etc.)</li>
+                <li>Portfolio building & marketplace projects (Freelancer, Shutterstock)</li>
             </ul>
         </div>
 
@@ -112,11 +116,11 @@ const Module1 = () => {
             </ul>
         </div>
 
-        <Module1Table/>
+        <Module2Table/>
 
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Module1;
+export default Module2
