@@ -41,7 +41,7 @@ const StudentWork = () => {
                     <div key={i} className="flex flex-col gap-x-[10] items-center ">
                         <img
                         src={item.icon}
-                        alt={item.label}
+                        alt="image"
                         className="object-contain"
                         />
                         <p className="font-semibold text-sm text-[#1F1E1E] mt-2">{item.title}</p>

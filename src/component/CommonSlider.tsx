@@ -6,7 +6,8 @@ import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import { ChevronLeft, ChevronRight } from "lucide-react";
+import { BiChevronLeft, BiChevronRight } from "react-icons/bi";
+// import { ChevronLeft, ChevronRight } from "lucide-react";
 
 interface SliderProps {
   items: any[];
@@ -32,11 +33,11 @@ export default function CommonSlider({
       
       {/* Prev Button */}
         <button ref={prevRef} className="absolute top-1/2 -left-[30px] -translate-y-1/2 w-6 h-6 rounded-full border-[1] border-[#E6333D] text-[#E6333D] z-30 flex items-center justify-center ">
-            <ChevronLeft size={20} />
+            <BiChevronLeft size={20} />
         </button>
 
         <button ref={nextRef} className="absolute top-1/2 -right-[30px] -translate-y-1/2 w-6 h-6 rounded-full border-[1] border-[#E6333D] text-[#E6333D] z-30 flex items-center justify-center ">
-            <ChevronRight size={20} />
+            <BiChevronRight size={20} />
         </button>
 
       <Swiper

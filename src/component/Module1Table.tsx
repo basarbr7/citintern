@@ -1,5 +1,6 @@
-import { FileText, MonitorSmartphone } from "lucide-react";
+import { FiFileText } from "react-icons/fi";
 import CustomTable from "./CustomTable";
+import { LuMonitorSmartphone } from "react-icons/lu";
 
 
 const Module1Table = () => {
@@ -11,7 +12,7 @@ const Module1Table = () => {
       "Offline (Theory)",
       "Fundamental Of Graphic Design",
       <a href="#" className="text-blue-600 flex items-center gap-1">
-         <FileText size={16} />PDF
+         <FiFileText size={16} />PDF
       </a>,
     ],
     [
@@ -19,7 +20,7 @@ const Module1Table = () => {
       "Offline (Lab)",
       "Introducing With Microsoft PowerPoint",
       <a href="#" className="text-blue-600 flex items-center gap-1">
-        <MonitorSmartphone size={16} /> Class Video
+        <LuMonitorSmartphone size={16} /> Class Video
       </a>,
     ],
     [

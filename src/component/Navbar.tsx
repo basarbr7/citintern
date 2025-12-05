@@ -1,11 +1,12 @@
-import Image from "next/image"
+
 import Container from "../layer/Container"
 import Header from "./Header"
 import Flex from "../layer/Flex"
 import { hindSili } from "../Font"
-import { BookOpen } from "lucide-react"
+
 import Header2 from "./Header2"
 import Button from "./Button"
+import { BiBookOpen } from "react-icons/bi"
 
 
 const menuItem = [
@@ -45,7 +46,7 @@ const Navbar = () => {
             ))}
           </ul>
             <Button className=" py-2.5 px-4 leading-normal text-base font-semibold text-white flex items-center gap-x-1 ">
-              <BookOpen className="py-1" />
+              <BiBookOpen className="py-1" />
               <h3>Browse Course</h3>
             </Button>
          </Flex>

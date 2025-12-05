@@ -1,8 +1,10 @@
 import Image from "next/image";
 import Container from "../layer/Container";
 import { hindSili, inter } from "../Font";
-import { MonitorSmartphone, Play, Star, Video } from "lucide-react";
+
 import Button from "../component/Button";
+import { Star } from "lucide-react";
+import { FaPlay } from "react-icons/fa";
 
 const Hero = () => {
   return (
@@ -66,8 +68,9 @@ const Hero = () => {
                 className="rounded-xl shadow-lg"
             />
             <div className=" absolute top-1/2 left-1/2 -translate-1/2 bg-[#FFFFFF]/20 w-[100px] h-[100px] rounded-full  ">
-                    <div className=" absolute top-1/2 left-1/2 -translate-1/2  bg-white w-[68px] h-[68px] rounded-full  ">
-                      <Play fill="currentColor" className="absolute top-1/2 left-1/2 -translate-1/2   text-[#F03210] "  />
+                    <div className=" absolute top-1/2 left-1/2 -translate-1/2  bg-white w-[68px] h-[68px] rounded-full  flex items-center justify-center">
+                    <FaPlay className="text-[#F03210]"/>
+                      {/* <Play fill="currentColor" className="absolute top-1/2 left-1/2 -translate-1/2   text-[#F03210] "  /> */}
                     </div>
             </div>
           </div>

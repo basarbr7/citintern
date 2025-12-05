@@ -1,6 +1,9 @@
-import { Check } from "lucide-react"
+
+
 import { hindSili } from "../Font"
 import Container from "../layer/Container"
+
+import { IoMdCheckmark } from "react-icons/io"
 
 const outcomeItem1 = [
     {
@@ -53,20 +56,20 @@ const OurFacilities = () => {
                 <h2>Our Facilities :</h2>
                 <div className="font-medium text-[#605F62] space-y-4 ">
                     <div className="flex justify-between">
-                        <span className="flex gap-0.5 "><Check size={20} className="text-[#9DBE27]" />Marketplace Account Open Support</span>
-                        <span className="flex gap-0.5 "><Check size={20} className="text-[#9DBE27]" />24/7 Support</span>
-                        <span className="flex gap-0.5 "><Check size={20} className="text-[#9DBE27]" />Short Support</span>
-                        <span className="flex gap-0.5 "><Check size={20} className="text-[#9DBE27]" />Job Preparation Support</span>
-                        <span className="flex gap-0.5 "><Check size={20} className="text-[#9DBE27]" />Job Career Placement Support</span>
+                        <span className="flex gap-0.5 "> <IoMdCheckmark size={16} className="text-[#9DBE27] " />Marketplace Account Open Support</span>
+                        <span className="flex gap-0.5 "><IoMdCheckmark size={16} className="text-[#9DBE27] " />24/7 Support</span>
+                        <span className="flex gap-0.5 "><IoMdCheckmark size={16} className="text-[#9DBE27] " />Short Support</span>
+                        <span className="flex gap-0.5 "><IoMdCheckmark size={16} className="text-[#9DBE27] " />Job Preparation Support</span>
+                        <span className="flex gap-0.5 "><IoMdCheckmark size={16} className="text-[#9DBE27] " />Job Career Placement Support</span>
                     </div>
                     <div className="flex justify-between">
-                        <span className="flex gap-0.5 "><Check size={20} className="text-[#9DBE27]" />{`Corporate Access Program (CAP)`}</span>
-                        <span className="flex gap-0.5 "><Check size={20} className="text-[#9DBE27]" />Extra Class</span>
-                        <span className="flex gap-0.5 "><Check size={20} className="text-[#9DBE27]" />Practice Lab</span>
-                        <span className="flex gap-0.5 "><Check size={20} className="text-[#9DBE27]" />Backup Class</span>
-                        <span className="flex gap-0.5 "><Check size={20} className="text-[#9DBE27]" />Mentor Support</span>
-                        <span className="flex gap-0.5 "><Check size={20} className="text-[#9DBE27]" />CIT Tools</span>
-                        <span className="flex gap-0.5 "><Check size={20} className="text-[#9DBE27]" />Class Resources</span>
+                        <span className="flex gap-0.5 "><IoMdCheckmark size={16} className="text-[#9DBE27] " />{`Corporate Access Program (CAP)`}</span>
+                        <span className="flex gap-0.5 "><IoMdCheckmark size={16} className="text-[#9DBE27] " />Extra Class</span>
+                        <span className="flex gap-0.5 "><IoMdCheckmark size={16} className="text-[#9DBE27] " />Practice Lab</span>
+                        <span className="flex gap-0.5 "><IoMdCheckmark size={16} className="text-[#9DBE27] " />Backup Class</span>
+                        <span className="flex gap-0.5 "><IoMdCheckmark size={16} className="text-[#9DBE27] " />Mentor Support</span>
+                        <span className="flex gap-0.5 "><IoMdCheckmark size={16} className="text-[#9DBE27] " />CIT Tools</span>
+                        <span className="flex gap-0.5 "><IoMdCheckmark size={16} className="text-[#9DBE27] " />Class Resources</span>
                     </div>
                 </div>
             </div>

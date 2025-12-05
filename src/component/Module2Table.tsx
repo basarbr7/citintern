@@ -1,5 +1,6 @@
-import { FileText, MonitorSmartphone } from "lucide-react";
+import { LuMonitorSmartphone } from "react-icons/lu";
 import CustomTable from "./CustomTable";
+import { FiFileText } from "react-icons/fi";
 
 const Module2Table = () => {
   const columns = [
@@ -29,7 +30,7 @@ const Module2Table = () => {
       "Offline (Theory)",
       "Working with Text & Image, Custom Lettering etc.",
       <a href="#" className="text-blue-600 flex items-center gap-1">
-        <MonitorSmartphone size={16} /> Class Video
+        <LuMonitorSmartphone size={16} /> Class Video
       </a>,
     ],
     [
@@ -43,7 +44,7 @@ const Module2Table = () => {
       "Lab (Practice)",
       "Business Card & Simple Logo",
       <a href="#" className="text-blue-600 flex items-center gap-1">
-        <FileText size={16} />
+        <FiFileText size={16} />
         PDF
       </a>,
     ],
@@ -53,7 +54,7 @@ const Module2Table = () => {
       "Lab (Practice)",
       "Stationery Design & Canva Template Editing ",
       <a href="#" className="text-blue-600 flex items-center gap-1">
-        <FileText size={16} /> Fonts & Icons
+        <FiFileText size={16} /> Fonts & Icons
       </a>,
     ],
     [
@@ -61,7 +62,7 @@ const Module2Table = () => {
       "Recorded Video",
       "Color Studies, Concept Development & Thank You Card Design ",
       <a href="#" className="text-blue-600 flex items-center gap-1">
-        <FileText size={16} />
+        <FiFileText size={16} />
         PDF
       </a>,
     ],
@@ -71,7 +72,7 @@ const Module2Table = () => {
       "Lab (Practice)",
       "Marketing Material (Flyer) & Canva Party Flyer Editing ",
       <a href="#" className="text-blue-600 flex items-center gap-1">
-        <FileText size={16} /> Mockups
+        <FiFileText size={16} /> Mockups
       </a>,
     ],
     [
@@ -79,7 +80,7 @@ const Module2Table = () => {
       "Recorded Video",
       "Analyzing Design & Understanding Graphic Design Principles ",
       <a href="#" className="text-blue-600 flex items-center gap-1">
-        <FileText size={16} /> PDF
+        <FiFileText size={16} /> PDF
       </a>,
     ],
     [
@@ -92,7 +93,7 @@ const Module2Table = () => {
       "Lab (Practice)",
       "Marketing Material (Brochure) & Canva Food Menu Brochure Editing",
       <a href="#" className="text-blue-600 flex items-center gap-1">
-         <FileText size={16} /> Mockups
+         <FiFileText size={16} /> Mockups
       </a>,
     ],
     [
@@ -111,7 +112,7 @@ const Module2Table = () => {
         "Offline (Theory)", 
         "Logo Design, Part: 01", 
         <a href="#" className="text-blue-600 flex items-center gap-1">
-         <FileText size={16} />PDF
+         <FiFileText size={16} />PDF
       </a>,
     ],
     [
@@ -119,7 +120,7 @@ const Module2Table = () => {
       "Lab (Practice)",
       "Logo Design, Part: 02 (Golden Ratio) & Logo Design Using AI (Nano Banana / Ideogram)",
       <a href="#" className="text-blue-600 flex items-center gap-1">
-        <MonitorSmartphone size={16} /> Class Video
+        <LuMonitorSmartphone size={16} /> Class Video
       </a>,
     ],
     [
@@ -127,7 +128,7 @@ const Module2Table = () => {
       "Recorded Video",
       "Logo Design, Part: 03 (Typography)",
       <a href="#" className="text-blue-600 flex items-center gap-1">
-        <MonitorSmartphone size={16} /> Class Video
+        <LuMonitorSmartphone size={16} /> Class Video
       </a>,
     ],
     [
@@ -135,7 +136,7 @@ const Module2Table = () => {
       "Lab (Practice)",
       "Marketing Material (Calendar & Food Menu)",
       <a href="#" className="text-blue-600 flex items-center gap-1">
-         <FileText size={16} /> Mockups
+         <FiFileText size={16} /> Mockups
       </a>,
     ],
     [
@@ -154,7 +155,7 @@ const Module2Table = () => {
       "Lab (Practice)",
       "Product Packaging, Label Design & Using Diecuttemplates.Com",
       <a href="#" className="text-blue-600 flex items-center gap-1">
-        <MonitorSmartphone size={16} /> Class Video
+        <LuMonitorSmartphone size={16} /> Class Video
       </a>,
     ],
     [
@@ -162,7 +163,7 @@ const Module2Table = () => {
       "Lab (Practice)",
       "Print On Demand (POD) Design",
       <a href="#" className="text-blue-600 flex items-center gap-1">
-         <FileText size={16} /> Fonts & Mockups
+         <FiFileText size={16} /> Fonts & Mockups
       </a>,
     ],
     [
@@ -176,7 +177,7 @@ const Module2Table = () => {
       "Offline (Theory)",
       "Portfolio And Pre-Press Setup",
       <a href="#" className="text-blue-600 flex items-center gap-1">
-        <MonitorSmartphone size={16} /> Class Video
+        <LuMonitorSmartphone size={16} /> Class Video
       </a>,
     ],
     [
@@ -184,7 +185,7 @@ const Module2Table = () => {
       "Offline (Theory)",
       "Marketplace : 02 Www.Shutterstock.Com (Live Project)",
       <a href="#" className="text-blue-600 flex items-center gap-1">
-         <FileText size={16} />PDF
+         <FiFileText size={16} />PDF
       </a>,
     ],
     [

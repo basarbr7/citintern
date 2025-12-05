@@ -2,7 +2,6 @@
 import CommonSlider from "./CommonSlider"
 import { hindSili } from "../Font"
 import Container from "../layer/Container";
-import { Play } from "lucide-react";
 
 
 const recordedData = [
@@ -40,7 +39,11 @@ const Recorded = () => {
                 className="object-contain"
                 />
                 <div className="absolute top-1/2 left-1/2 -translate-1/2 w-[53px] h-8 bg-white border-[1] border-[#E73327] rounded-md flex items-center justify-center ">
-                    <Play size={14} fill="currentColor" className="text-[#E73327]" />
+                <div className="w-0 h-0 
+                  border-l-[7px] border-l-[red]
+                  border-t-[6px] border-t-transparent
+                  border-b-[6px] border-b-transparent">
+                </div>
                 </div>
               </div>
               <p className=" text-[#1F1E1E] mt-2.5 h-9 ">{item.title}</p>
