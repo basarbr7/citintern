@@ -5,6 +5,8 @@ import Hero from "../pages/Hero";
 import OurFacilities from "../pages/OurFacilities";
 import MiddlePart from "../pages/MiddlePart";
 import CourseOutline from "../pages/CourseOutline";
+import Admission from "../pages/Admission";
+import StudentWork from "../pages/StudentWork";
 
 export default function Home() {
   return (
@@ -14,6 +16,8 @@ export default function Home() {
       <OurFacilities/>
       <MiddlePart/>
       <CourseOutline/>
+      <Admission/>
+      <StudentWork/>
     </>
   );
 }
